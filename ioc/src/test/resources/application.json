@@ -1,0 +1,17 @@
+[
+  {
+    "name":"robot",
+    "className":"com.xilidou.framework.ioc.entity.Robot"
+  },
+  {
+    "name":"hand",
+    "className":"com.xilidou.framework.ioc.entity.Hand"
+  },
+  {
+    "name":"mouth",
+    "className":"com.xilidou.framework.ioc.entity.Mouth"
+  }
+]
+
+
+

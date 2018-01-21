@@ -1,0 +1,13 @@
+[
+  {
+    "name":"apple",
+    "className":"com.doudou.ioc.entity.Apple"
+  },
+  {
+    "name":"banana",
+    "className":"com.doudou.ioc.entity.Banana"
+  }
+]
+
+
+

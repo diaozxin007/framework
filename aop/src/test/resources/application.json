@@ -1,0 +1,26 @@
+[
+  {
+    "name":"beforeMethod",
+    "className":"com.xilidou.framework.aop.test.StartTimeBeforeMethod"
+  },
+  {
+    "name":"afterMethod",
+    "className":"com.xilidou.framework.aop.test.EndTimeAfterMethod"
+  },
+  {
+    "name":"testService",
+    "className":"com.xilidou.framework.aop.test.TestService"
+  },
+  {
+    "name":"testServiceProxy",
+    "className":"com.xilidou.framework.aop.core.ProxyFactoryBean",
+    "target":"testService",
+    "interceptorNames":[
+      "beforeMethod",
+      "afterMethod"
+    ]
+  }
+]
+
+
+

@@ -12,10 +12,19 @@
     <modules>
         <module>ioc</module>
         <module>aop</module>
+        <module>mergerequest</module>
     </modules>
 
     <dependencyManagement>
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.apache.commons</groupId>

@@ -1,18 +1,16 @@
 package com.xilidou.framework.ioc.entity;
 
 import lombok.Data;
-import lombok.ToString;
 
 @Data
-@ToString
 public class Hand {
 
     private Mouth mouth;
 
-    public void waveHand(){
+    private String code;
 
+    public void waveHand() {
+        System.out.println("hand 编号：" + code + ",依赖于mouth 编号" + mouth.getCode());
         System.out.println("挥一挥手");
-
     }
-
 }

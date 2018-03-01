@@ -29,7 +29,7 @@ public class BeanFactoryImpl implements BeanFactory{
         }
         Object earlyBean = earlySingletonObjects.get(name);
         if (earlyBean != null) {
-            System.out.println("循环依赖，提前返回尚未加载完成的bean:" + name);
+            System.out.println("发生了循环依赖，提前返回尚未加载完成的bean:" + name);
             return earlyBean;
         }
         //如果没有实例化，那就需要调用createBean来创建对象
